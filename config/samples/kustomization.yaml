@@ -1,0 +1,4 @@
+## Append samples of your project ##
+resources:
+- music_v1_song.yaml
+# +kubebuilder:scaffold:manifestskustomizesamples

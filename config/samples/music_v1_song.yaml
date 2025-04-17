@@ -1,0 +1,12 @@
+apiVersion: music.frsarker.kubebuilder.io/v1
+kind: Song
+metadata:
+  labels:
+    app.kubernetes.io/name: k8s-kubebuilder
+    app.kubernetes.io/managed-by: kustomize
+  name: song-sample
+spec:
+  replicas: 2
+  title: "Shape-of-You"
+  artist: "Ed-Sheeran"
+  # TODO(user): Add fields here
